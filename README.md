@@ -1,24 +1,17 @@
-# README
+# Overview
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repo runs with:
 
-Things you may want to cover:
+* rails 7 
+* jsbundling-rails in its default esbuild configuration
+* cssbundling-rails
 
-* Ruby version
+# Experiments
 
-* System dependencies
 
-* Configuration
+## Delegated
 
-* Database creation
+The following are delegated to the other repo, but are relevant here too:
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* [http2-server-push](https://github.com/tgaff/the_one_with_import_maps#http2-server-push)
+* [running with early-hints](https://github.com/tgaff/the_one_with_import_maps#http2-server-push)
