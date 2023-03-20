@@ -2,7 +2,7 @@ services:
   - type: web
     name: mysite
     env: ruby
-    instanceType: free
+    plan: free
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
     envVars:
