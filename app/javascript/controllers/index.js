@@ -4,5 +4,9 @@
 
 import { application } from "./application"
 
+
+import ImageLoaderController from "./image_loader_controller"
+application.register("image-loader", ImageLoaderController)
+
 import HelloController from "./hello_controller"
 application.register("hello", HelloController)
